@@ -1,0 +1,65 @@
+body    /*estilização do corpo do site*/
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%; /*Total utilizado da janela do navegador*/
+        margin: 0 auto; /*Distribuição proporcional do conteúdo dentro dos 90%*/
+        background: linear-gradient(to right,#0b1726, #1f3f66); /*Degradê de cores*/
+    }   
+header  /*definir cabeçalho*/
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #161616;
+        border-radius: 7px; /*Arredonda os cantos*/
+        margin-top: 10px;   
+    }
+.logo img   /*Estilização da imagem da logo*/
+    {
+        width: 45%; /*Define o tamanho da imagem em relação ao navegador, aumento ou diminuição da largura do navegador*/
+        padding-top: 50px;
+    }
+.navegacao
+    {
+        overflow: hidden;
+    }
+.navegacao a    /*Estilização dos hyperlinks*/
+    {
+        float:right;    /*Disposição dos hyperlinks a direita*/
+        color: rgb(173,173,173);
+        text-decoration: none;  /*Eliminar o sublinhado*/
+        padding: 10px;
+    }
+.navegacao a:hover  /*Alterar a cor dos hyperlinks após a passagem do mouse*/
+    {
+        color:#e32936;
+    }
+.principal
+    {
+        display: flex;  /*Organiza a disposição do conteúdo, neste caso com as divs de conteúdo uma ao lado da outra*/
+        flex-direction: row;
+    }
+.conteudo   /*Estilização do conteúdo*/ 
+    {
+        float: left;    /*Disposiçao do conteúdo*/
+        margin: 15px 10px 25px 10px;  /*Definição da margem*/
+        background-color: gainsboro;
+        text-align: justify; /*Igual trabalho*/
+        padding: 15px;
+        border-radius: 7px;
+        box-shadow: 10px 10px 10px #08101a98; /*Definição da sombra*/
+    }
+.rodape
+    {
+        color: darkgray;
+        font-size: 10px;
+        text-align: center;
+        padding: 20px;
+    }
+@media screen  and (max-width:600px)    /*Responsividade -> alteração do layout de acordo com o tamanho da tela*/
+    {
+        body,.principal,.conteudo   /*Define os escopos a serem alterados*/
+        {
+            width: 100%;
+            flex-direction: column;
+            padding: 0px;
+        }
+    }

@@ -1,0 +1,98 @@
+body
+    {
+        background-color:rgb(186, 204, 219);    /*Cor de fundo*/
+        font-family: 'Times New Roman', Times, serif;   /*Fonte da letra*/
+        margin: auto;   
+        width: 90%; /*Porção ocupada da página*/
+        font-size: 20px;
+    }
+.cabecalho  /*definir cabeçalho*/
+    {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #161616;
+        border-radius: 7px; /*Arredonda os cantos*/
+        margin-top: 10px;
+        width: 100%;
+        height: 200px;
+
+    }
+.brasao img
+    {
+        width: 150px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+.title
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+.navegacao
+    {
+        overflow: hidden;
+    }
+.navegacao a    /*Estiliza os hyperlinks*/
+    {
+        float: right;   /*Dispôem os hyperlink a direita*/
+        padding-right: 20px;
+        text-decoration: none;
+        color: red;   /*Cor da fonte do link*/
+    }
+.navegacao a:hover
+    {
+        color: aliceblue;
+    }
+.emblema
+    {
+        background-color:aliceblue;
+        border-radius: 7px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.brasa
+    {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+.hino
+    {
+        background-color:aliceblue;
+        border-radius: 7px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.audio
+    {
+        position: absolute;
+        left: 40%;
+        top: 300%;
+    }
+.turismo
+    {
+        background-color:aliceblue;
+        border-radius: 7px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.img
+    {
+        padding-left: 7%;
+    }
+.economia
+    {
+        background-color:aliceblue;
+        border-radius: 7px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.curiosidades
+    {
+        background-color:aliceblue;
+        border-radius: 7px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
